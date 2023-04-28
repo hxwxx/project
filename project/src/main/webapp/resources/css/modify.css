@@ -1,0 +1,32 @@
+@charset "UTF-8";
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex: 1;
+}
+
+#content form {
+  text-align: left;
+}
+
+#content .input_area {
+  margin: 10px 0;
+}
+
+#content button {
+  margin-top: 20px;
+}
+
+#content p {
+  color: #f00;
+}
+#footer {
+  margin-top: auto;
+}
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
